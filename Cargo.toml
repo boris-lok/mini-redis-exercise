@@ -1,0 +1,9 @@
+[package]
+name = "mini_redis"
+version = "0.1.0"
+edition = "2021"
+authors = ["boris.lok <boris.lok@outlook.com>"]
+
+[dependencies]
+tokio = { version ="1.28.1", features = ["full"] }
+anyhow = "1.0.71"
