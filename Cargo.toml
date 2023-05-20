@@ -7,3 +7,5 @@ authors = ["boris.lok <boris.lok@outlook.com>"]
 [dependencies]
 tokio = { version ="1.28.1", features = ["full"] }
 anyhow = "1.0.71"
+bytes = "1.4.0"
+atoi ="2.0.0"
