@@ -1,8 +1,8 @@
 use anyhow::Ok;
-use tokio::{net::TcpStream, io::AsyncWriteExt};
+use tokio::{io::AsyncWriteExt, net::TcpStream};
 
 #[tokio::main]
-async fn main() -> anyhow::Result<()>{
+async fn main() -> anyhow::Result<()> {
     let mut socket = TcpStream::connect("127.0.0.1:12345").await?;
 
     // Write some data to socket
