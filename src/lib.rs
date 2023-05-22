@@ -1,4 +1,7 @@
-pub mod frame;
+mod frame;
+pub use frame::Frame;
+
+mod parse;
 
 /// Error returned by most functions.
 ///
